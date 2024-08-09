@@ -100,8 +100,7 @@ http://localhost:4000/api-docs
 ```
 
 ## Project Structure
-
-
+```
 ├── .dockerignore            # Docker ignore file
 ├── .env                     # Environment variables
 ├── Dockerfile               # Docker configuration
@@ -118,7 +117,7 @@ http://localhost:4000/api-docs
 │   └── transferPower.pdf    # Example PDF template
 └── utilities                # Utility functions
     └── pdfUtils.js          # PDF handling utilities
-
+```
 ## Dependencies
 
 - [Express](https://expressjs.com/) - Web framework for Node.js
