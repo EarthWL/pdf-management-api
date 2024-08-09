@@ -91,20 +91,6 @@ This is a Node.js-based API for managing PDF files. The API allows you to upload
   }
   ```
 
-## Project Structure
-
-```
-├── index.js                # Entry point of the application
-├── routes
-│   └── api-v1.js           # API routes for version 1
-├── utilities
-│   └── pdfUtils.js         # Utility functions for PDF handling
-├── template                # Directory for storing PDF templates
-├── middlewares.js          # Middleware setup
-├── errorHandler.js         # Global error handling
-└── swagger.js              # Swagger documentation setup
-```
-
 ## Swagger API Documentation
 
 This project uses Swagger to generate API documentation. Once the server is running, you can view the API documentation by navigating to:
