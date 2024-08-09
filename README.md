@@ -101,25 +101,23 @@ http://localhost:4000/api-docs
 
 ## Project Structure
 
-```
-/
-    .dockerignore
-    .env
-    Dockerfile
-    index.mjs
-    package.json
-fonts/
-    AngsanaNew.ttf
-    THSarabunNew.ttf
-middleware/
-    apiKeyAuth.js
-routes/
-    api-v1.js
-template/
-    transferPower.pdf
-utilities/
-    pdfUtils.js
-```
+
+├── .dockerignore            # Docker ignore file
+├── .env                     # Environment variables
+├── Dockerfile               # Docker configuration
+├── index.mjs                # Entry point of the application
+├── package.json             # Node.js dependencies and scripts
+├── fonts                    # Directory for storing custom fonts
+│   ├── AngsanaNew.ttf       # Angsana New font
+│   └── THSarabunNew.ttf     # TH Sarabun New font
+├── middleware               # Middleware functions
+│   └── apiKeyAuth.js        # API Key authentication middleware
+├── routes                   # API route handlers
+│   └── api-v1.js            # API routes for version 1
+├── template                 # Directory for storing PDF templates
+│   └── transferPower.pdf    # Example PDF template
+└── utilities                # Utility functions
+    └── pdfUtils.js          # PDF handling utilities
 
 ## Dependencies
 
