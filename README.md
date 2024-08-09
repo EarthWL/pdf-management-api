@@ -110,7 +110,7 @@ http://localhost:4000/api-docs
 │   ├── AngsanaNew.ttf       # Angsana New font
 │   └── THSarabunNew.ttf     # TH Sarabun New font
 ├── middleware               # Middleware functions
-│   └── apiKeyAuth.js        # API Key authentication middleware
+│   └── apiKeyAuth.js        # API Key authentication middleware *Enable in index.mjs file to use API-KEY 
 ├── routes                   # API route handlers
 │   └── api-v1.js            # API routes for version 1
 ├── template                 # Directory for storing PDF templates
