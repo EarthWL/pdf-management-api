@@ -99,6 +99,28 @@ This project uses Swagger to generate API documentation. Once the server is runn
 http://localhost:4000/api-docs
 ```
 
+## Project Structure
+
+```
+/
+    .dockerignore
+    .env
+    Dockerfile
+    index.mjs
+    package.json
+fonts/
+    AngsanaNew.ttf
+    THSarabunNew.ttf
+middleware/
+    apiKeyAuth.js
+routes/
+    api-v1.js
+template/
+    transferPower.pdf
+utilities/
+    pdfUtils.js
+```
+
 ## Dependencies
 
 - [Express](https://expressjs.com/) - Web framework for Node.js
